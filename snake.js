@@ -1,6 +1,6 @@
 function init(){
 	canvas = document.getElementById('mycanvas');
-	W = H = canvas.width = canvas.height = 1000;
+	W = H = canvas.width = canvas.height = 800;
 	pen = canvas.getContext('2d');
 	cs = 66;
 	game_over = false;
